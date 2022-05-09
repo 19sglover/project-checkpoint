@@ -6,44 +6,59 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
+.pg2, .pg3 {
     background-color: green;
 }
 
-header {
+.pg2 header, .pg3 header {
     background-color: gray;
 }
 
-header ul li {
+.pg2 header ul li, .pg3 header ul li {
     display: inline-block;
     font-size: 40px;
     padding: 10px;
 }
 
-header ul li a {
+.pg2 header ul li a, .pg3 header ul li a {
     text-decoration: none;
     color: white;
 }
 
-header ul li:hover {
+.pg2 header ul li:hover, .pg3 header ul li:hover {
     background-color: chartreuse;
     color: orange;
 }
 
-main {
+.pg2 main {
     padding: 20px 40px;
 }
 
-main h2 {
+.pg2 main h2 {
     padding: 0 0 10px 0;
 }
 
-.sect2 {
+.pg2 .sect2 {
     background-color: rgb(175, 224, 125);
     padding: 20px;
     font-size: 15spx;
 }
 
-ul {
+.pg3 header ul {
     text-align: center;
+}
+
+.pg3 .text-block {
+    background-color: rgb(127, 255, 144);
+    margin: 20px 0;
+    padding: 20px
+}
+
+.pg3 .main {
+    width: 80%;
+    margin:40px auto;
+}
+
+.pg3 .main img {
+    width: 100%;
 }
